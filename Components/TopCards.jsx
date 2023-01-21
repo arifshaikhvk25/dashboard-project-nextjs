@@ -1,0 +1,41 @@
+import React from 'react'
+
+const TopCards = () => {
+    return (
+        <div className='grid lg:grid-cols-5 gap-4 p-4'>
+
+            <div className='lg:col-span-2 col-span1 bg-white flex justify-between w-full border p-4 rounded-lg'>
+                <div className='flex flex-col w-full pb-4'>
+                    <p className='flex-2x1 font-bold'>$7,856</p>
+                    <p className='text-gray-600'>Daily Revenue</p>
+                </div>
+                <p className='bg-green-300 flex justify-center items-center p-4 rounded-lg'>
+                    <span className='text-green-900 text-lg'>+18%</span>
+                </p>
+            </div>
+
+            <div className='lg:col-span-2 col-span1 bg-white flex justify-between w-full border p-4 rounded-lg'>
+                <div className='flex flex-col w-full pb-4'>
+                    <p className='flex-2x1 font-bold'>$1,786,856</p>
+                    <p className='text-gray-600'>YTD Revenue</p>
+                </div>
+                <p className='bg-green-300 flex justify-center items-center p-4 rounded-lg'>
+                    <span className='text-green-900 text-lg'>+15%</span>
+                </p>
+            </div>
+
+            <div className='bg-white flex justify-between w-full border p-4 rounded-lg'>
+                <div className='flex flex-col w-full pb-4'>
+                    <p className='flex-2x1 font-bold'>$25,519</p>
+                    <p className='text-gray-600'> Customers </p>
+                </div>
+                <p className='bg-green-300 flex justify-center items-center p-4 rounded-lg'>
+                    <span className='text-green-900 text-lg'>+20%</span>
+                </p>
+            </div>
+
+        </div>
+    )
+}
+
+export default TopCards
